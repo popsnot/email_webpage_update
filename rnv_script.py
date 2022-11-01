@@ -23,7 +23,7 @@ while True:
         if newHash == currentHash:
             continue
         else:
-            print("New tickets up")
+            print("page updated")
             mail = outlook.CreateItem(0)
             mail.To = '***insert your email here***'
             mail.Subject = '***'
@@ -35,4 +35,4 @@ while True:
             time.sleep(30)
             continue
     except Exception as e:
-        print("we shit the bed")
+        print("error")

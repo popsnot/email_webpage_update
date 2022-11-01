@@ -1,4 +1,4 @@
-# i call this one the indoor missile
+# webpage update tracker
 python script to send an email when a webpage is updated
 
 background script that creates a hash of a webpage and compares it to the previous hash - if there is a difference in the hashes, it flicks whoever you
